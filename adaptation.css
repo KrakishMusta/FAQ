@@ -1,0 +1,79 @@
+@media (orientation: portrait) {
+    :root
+    {
+        --width: 150px;
+    }
+    main
+    {
+        margin: 0 8vw 0 8vw;
+    }
+    .container
+    {
+        gap: 20px;
+    }
+    .aside-list
+    {
+        width: var(--width);
+    }
+    div p
+    {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    div ul li
+    {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    h3
+    {
+        font-size: 30px;
+        font-weight: 600;
+        scroll-margin: 20px;
+    }
+    h3 ~ h4
+    {
+        font-size: 25px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .section
+    {
+        margin-top: 50px;
+    }
+    .list-to > li > ol
+    {
+        font-size: 15px;
+        padding-left: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .list-to
+    {
+        font-size: 15px;
+    }
+    .spanish
+    {
+        width: 30px;
+        height: 3px;
+        background-color: #0F2C59;
+        content: '';
+    }
+}
+/* @media (orientation: landscape) {
+    :root
+    {
+        --width: 300px;
+    }
+    .former
+    {
+        height: 50vh;
+        width: 30vw;
+    }
+    .former input, button
+    {
+        width: 25vw;
+    }
+} */
