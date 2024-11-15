@@ -2,12 +2,14 @@
 {
     --widthML: 350px;
     --widthMR: 50px;
+    --widthMB: 80px;
 }
 
 main
 {
     margin-left: var(--widthML);
     margin-right: var(--widthMR);
+    margin-bottom: var(--widthMB);
 }
 
 a
